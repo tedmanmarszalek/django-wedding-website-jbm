@@ -1,4 +1,4 @@
-from django.conf.urls import url
+from django.urls import re_path as url
 
 from guests.views import GuestListView, test_email, save_the_date_preview, save_the_date_random, export_guests, \
     invitation, invitation_email_preview, invitation_email_test, rsvp_confirm, dashboard
