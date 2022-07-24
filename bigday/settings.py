@@ -127,7 +127,7 @@ STATICFILES_DIRS = (
 )
 
 # This is used in a few places where the names of the couple are used
-BRIDE_AND_GROOM = 'Bride and Groom'
+BRIDE_AND_GROOM = 'Jacob and Kelly'
 # base address for all emails
 DEFAULT_WEDDING_EMAIL = 'happilyeverafter@example.com'
 # the address your emails (save the dates/invites/etc.) will come from
