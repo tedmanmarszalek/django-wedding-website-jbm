@@ -65,10 +65,14 @@ TEMPLATES = [
                 'django.template.context_processors.request',
                 'django.contrib.auth.context_processors.auth',
                 'django.contrib.messages.context_processors.messages',
+                'django.template.context_processors.media'
             ],
         },
     },
 ]
+
+MEDIA_ROOT=os.path.join(BASE_DIR,"songdir")
+MEDIA_URL='/media/'
 
 WSGI_APPLICATION = 'bigday.wsgi.application'
 
@@ -135,16 +139,16 @@ DEFAULT_WEDDING_FROM_EMAIL = BRIDE_AND_GROOM + ' <' + DEFAULT_WEDDING_EMAIL + '>
 # the default reply-to of your emails
 DEFAULT_WEDDING_REPLY_EMAIL = DEFAULT_WEDDING_EMAIL # change to 'address@domain.tld'
 # the location of your wedding
-WEDDING_LOCATION = 'North Pole, USA'
+WEDDING_LOCATION = 'Chattanooga, TN'
 # the date of your wedding
-WEDDING_DATE = 'January 1st, 1969'
+WEDDING_DATE = 'June 17th, 2023'
 
 # when sending test emails it will use this address
 DEFAULT_WEDDING_TEST_EMAIL = DEFAULT_WEDDING_FROM_EMAIL
 
 
 # This is used in links in save the date / invitations
-WEDDING_WEBSITE_URL = 'https://thehappycouple.com'
+WEDDING_WEBSITE_URL = 'https://jacobandkellyforever.com'
 WEDDING_CC_LIST = []  # put email addresses here if you want to cc someone on all your invitations
 
 # change to a real email backend in production
