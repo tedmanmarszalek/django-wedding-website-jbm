@@ -1,1 +1,1 @@
-web: gunicorn bigday.wsgi
+web: python manage.py runserver
