@@ -133,7 +133,7 @@ STATICFILES_DIRS = (
 # This is used in a few places where the names of the couple are used
 BRIDE_AND_GROOM = 'Jacob and Kelly'
 # base address for all emails
-DEFAULT_WEDDING_EMAIL = 'happilyeverafter@example.com'
+DEFAULT_WEDDING_EMAIL = 'info@kellyandjacobforever.com'
 # the address your emails (save the dates/invites/etc.) will come from
 DEFAULT_WEDDING_FROM_EMAIL = BRIDE_AND_GROOM + ' <' + DEFAULT_WEDDING_EMAIL + '>' # change to 'address@domain.tld'
 # the default reply-to of your emails
@@ -148,7 +148,7 @@ DEFAULT_WEDDING_TEST_EMAIL = DEFAULT_WEDDING_FROM_EMAIL
 
 
 # This is used in links in save the date / invitations
-WEDDING_WEBSITE_URL = 'https://jacobandkellyforever.com'
+WEDDING_WEBSITE_URL = 'https://kellyandjacobforever.com'
 WEDDING_CC_LIST = []  # put email addresses here if you want to cc someone on all your invitations
 
 # change to a real email backend in production
